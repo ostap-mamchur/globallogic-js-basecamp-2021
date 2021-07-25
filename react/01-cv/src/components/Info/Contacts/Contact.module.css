@@ -1,0 +1,17 @@
+.links > a {
+    display: block;
+    padding: 0.3em 0;
+    text-decoration: none;
+    color: black;
+}
+
+.links__icon {
+    height: 1.5em;
+    width: 1.5em;
+    vertical-align: -0.4em;
+}
+
+.links__label {
+    display: inline-block;
+    margin-left: 0.5em;
+}

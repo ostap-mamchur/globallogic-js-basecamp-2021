@@ -1,0 +1,19 @@
+.info {
+    display: flex;
+}
+
+.column_1 {
+    flex: 3;
+    background-color: white;
+    padding: 2em;
+}
+
+.column_2 {
+    flex: 5;
+    background-color: #efefef;
+    padding: 2em;
+}
+
+.column > * {
+    margin-bottom: 2rem;
+}

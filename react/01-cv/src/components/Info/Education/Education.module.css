@@ -1,0 +1,9 @@
+.education__list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.time {
+    white-space: nowrap;
+    color: #5063aa;
+}

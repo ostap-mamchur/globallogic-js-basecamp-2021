@@ -1,0 +1,20 @@
+.title {
+    display: table-caption;
+    margin-bottom: 1rem;
+}
+
+.title > h3 {
+    color: #7c8587;
+    font-size: 24px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.title::after {
+    content: "";
+    height: 0.25em;
+    width: 5em;
+    display: block;
+    background-color: #7c8587;
+}

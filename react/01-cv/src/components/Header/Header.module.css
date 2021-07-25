@@ -1,0 +1,31 @@
+.introduction {
+    background: url("hero.png") center no-repeat;
+    background-size: cover;
+    padding: 3em 5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.avatar {
+    margin-right: 2rem;
+}
+
+.avatar > img {
+    border-radius: 50%;
+}
+
+.info {
+    text-transform: uppercase;
+    color: white;
+
+}
+
+.info__name {
+    font-size: 56px;
+    letter-spacing: 0.02em;
+    font-family: 'Courier New';
+}
+
+.info__position {
+    font-size: 24px;
+}
