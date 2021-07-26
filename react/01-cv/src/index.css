@@ -25,12 +25,14 @@ body {
 }
 
 @media (max-width: 630px) {
-  :root {
-    font-size: 1.125em;
-  }
-
   body {
       padding: 0;
+  }
+}
+
+@media (min-width: 800px) {
+  :root {
+    font-size: 1.125em;
   }
 }
 
