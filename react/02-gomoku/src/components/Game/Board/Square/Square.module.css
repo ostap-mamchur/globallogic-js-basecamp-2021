@@ -1,0 +1,26 @@
+.square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 1.5rem;
+    font-weight: bold;
+    height: 2rem;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 2rem;
+    transition: all 0.2s linear;
+}
+
+.square:hover {
+    background-color: #f3b69e;
+}
+
+.square.current {
+    background-color: lightsalmon;
+}
+
+.square.winning {
+    background-color: rgba(0, 0, 0, 0.3);
+}
