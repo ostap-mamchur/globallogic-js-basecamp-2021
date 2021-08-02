@@ -19,20 +19,4 @@ const Board = props => {
     );
 }
 
-function calculateWinner(squares, i, j) {
-    const symbol = "X";
-    let winningCombination = [{i, j}];
-
-    for (let ih = i - 1; ih >= 0; ih--) {
-        if (winningCombination.length === 5) {
-            return winningCombination;
-        }
-        if (squares[ih][j] === symbol) {
-            winningCombination.push({ih, j})
-        }
-    }
-    debugger;
-    return null;
-}
-
 export default Board;
