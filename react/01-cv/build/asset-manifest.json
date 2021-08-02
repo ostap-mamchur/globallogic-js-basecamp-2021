@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/globallogic-js-basecamp-2021/react/01-cv/build/static/css/main.320337c6.chunk.css",
+    "main.js": "/globallogic-js-basecamp-2021/react/01-cv/build/static/js/main.1014871f.chunk.js",
+    "main.js.map": "/globallogic-js-basecamp-2021/react/01-cv/build/static/js/main.1014871f.chunk.js.map",
+    "runtime-main.js": "/globallogic-js-basecamp-2021/react/01-cv/build/static/js/runtime-main.0a81cfd4.js",
+    "runtime-main.js.map": "/globallogic-js-basecamp-2021/react/01-cv/build/static/js/runtime-main.0a81cfd4.js.map",
+    "static/js/2.7ef46e23.chunk.js": "/globallogic-js-basecamp-2021/react/01-cv/build/static/js/2.7ef46e23.chunk.js",
+    "static/js/2.7ef46e23.chunk.js.map": "/globallogic-js-basecamp-2021/react/01-cv/build/static/js/2.7ef46e23.chunk.js.map",
+    "static/js/3.dc0db147.chunk.js": "/globallogic-js-basecamp-2021/react/01-cv/build/static/js/3.dc0db147.chunk.js",
+    "static/js/3.dc0db147.chunk.js.map": "/globallogic-js-basecamp-2021/react/01-cv/build/static/js/3.dc0db147.chunk.js.map",
+    "index.html": "/globallogic-js-basecamp-2021/react/01-cv/build/index.html",
+    "static/css/main.320337c6.chunk.css.map": "/globallogic-js-basecamp-2021/react/01-cv/build/static/css/main.320337c6.chunk.css.map",
+    "static/js/2.7ef46e23.chunk.js.LICENSE.txt": "/globallogic-js-basecamp-2021/react/01-cv/build/static/js/2.7ef46e23.chunk.js.LICENSE.txt",
+    "static/media/avatar.b13b4304.jpg": "/globallogic-js-basecamp-2021/react/01-cv/build/static/media/avatar.b13b4304.jpg",
+    "static/media/email.7be6e02d.svg": "/globallogic-js-basecamp-2021/react/01-cv/build/static/media/email.7be6e02d.svg",
+    "static/media/Header.module.css": "/globallogic-js-basecamp-2021/react/01-cv/build/static/media/hero.f9438f37.png",
+    "static/media/location.f5a0282e.svg": "/globallogic-js-basecamp-2021/react/01-cv/build/static/media/location.f5a0282e.svg",
+    "static/media/phone.4f06bac0.svg": "/globallogic-js-basecamp-2021/react/01-cv/build/static/media/phone.4f06bac0.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0a81cfd4.js",
+    "static/js/2.7ef46e23.chunk.js",
+    "static/css/main.320337c6.chunk.css",
+    "static/js/main.1014871f.chunk.js"
+  ]
+}

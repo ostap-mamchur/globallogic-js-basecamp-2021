@@ -1,5 +1,6 @@
 :root {
   box-sizing: border-box;
+  font-size: calc(1vw + 0.6em);
 }
 
 *,
@@ -13,6 +14,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 body {
+  padding: 30px;
   margin: 0;
   font-family: 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -20,6 +22,18 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: darkgray;
+}
+
+@media (max-width: 630px) {
+  body {
+      padding: 0;
+  }
+}
+
+@media (min-width: 800px) {
+  :root {
+    font-size: 1.125em;
+  }
 }
 
 h1, h2, h3, h4, h5, h6, p {
