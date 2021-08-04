@@ -2,7 +2,7 @@
     background: #fff;
     border: 1px solid #999;
     float: left;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: bold;
     height: 2rem;
     margin-right: -1px;
@@ -11,6 +11,7 @@
     text-align: center;
     width: 2rem;
     transition: all 0.2s linear;
+    cursor: pointer;
 }
 
 .square:hover {
@@ -22,5 +23,5 @@
 }
 
 .square.winning {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: #f6875b;
 }
