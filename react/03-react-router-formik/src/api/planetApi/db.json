@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Neptune",
+    "temperature": -220,
+    "isWater": true,
+    "timestamp": 1627934490151
+  },
+  {
+    "id": 2,
+    "name": "Earth",
+    "temperature": 8,
+    "isWater": true,
+    "timestamp": 1627934490151
+  }
+]

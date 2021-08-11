@@ -1,0 +1,8 @@
+.NotFound > h1 {
+    font-size: 64px;
+}
+
+.NotFound > p {
+    font-size: 56px;
+    color: darkred;
+}

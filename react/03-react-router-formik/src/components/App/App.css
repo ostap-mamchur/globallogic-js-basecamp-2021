@@ -1,0 +1,13 @@
+.App {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    grid-template-areas: "s h";
+    grid-template-rows: minmax(100vh, max-content);
+    gap: 2px;
+}
+
+.content {
+    grid-area: h;
+    background-color: #e7e7e7;
+    padding: 2em;
+}
