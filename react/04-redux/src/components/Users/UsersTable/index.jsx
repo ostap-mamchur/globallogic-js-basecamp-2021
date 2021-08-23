@@ -8,6 +8,7 @@ import './index.scss';
 import { getDate } from '../UserForm/converter';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchUsers } from '../../../redux/usersSlice';
+import Loading from '../../../common/Loading/Loading';
 
 function UsersTable() {
   const dispatch = useDispatch();
@@ -28,7 +29,7 @@ function UsersTable() {
 
 
   if (usersStatus === "loading") {
-    content = <div className="loader">Loading...</div>
+    content = <Loading />
   } else if (usersStatus === "succeeded") {
     content = (
       <div className='UsersTable'>

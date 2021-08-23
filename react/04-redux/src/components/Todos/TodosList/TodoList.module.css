@@ -1,0 +1,8 @@
+.list {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.list > * + * {
+    margin-top: 0.5em;
+}

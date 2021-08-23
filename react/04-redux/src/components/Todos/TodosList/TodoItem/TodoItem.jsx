@@ -1,5 +1,6 @@
 import { useDispatch } from 'react-redux';
 import { removeTodo, toggleTodo } from '../../../../redux/todosSlice';
+import styles from "./TodoItem.module.css";
 
 function TodoItem({ text, id, isComleted }) {
 
@@ -13,8 +14,8 @@ function TodoItem({ text, id, isComleted }) {
   }
 
   return (
-    <li onClick={handleTodoCompletedClick}>
-      <span style={{ textDecoration: isComleted ? 'line-through' : 'auto' }}>{text}</span>{" "}
+    <li className={styles.item}>
+      <p onClick={handleTodoCompletedClick} style={{ textDecoration: isComleted ? 'line-through' : 'auto' }}>{text}</p>
       <button onClick={handleTodoDeleteClick}>delete</button>
     </li>
   );

@@ -1,7 +1,7 @@
-import { Formik, Form } from 'formik';
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { addTodo } from '../../../redux/todosSlice';
+import styles from "./AddTodoForm.module.css";
 
 function AddTodoForm() {
   const [text, setText] = useState("");
@@ -15,18 +15,21 @@ function AddTodoForm() {
   }
 
   return (
-    <div>
+    <div className={styles.formContainer}>
       <h2>Add a new todo</h2>
-      <form>
+      <form className={styles.form}>
         <label htmlFor='todoText'>Todo text:</label>
-        <textarea
-          name='todoText'
-          id='todoText'
-          onChange={handleTextChange}
-          value={text}
-          cols='30'
-          rows='1'
-        />
+        <div>
+          <textarea
+            className={styles.todoText}
+            name='todoText'
+            id='todoText'
+            onChange={handleTextChange}
+            value={text}
+            cols='30'
+            rows='1'
+          />
+        </div>
         <button onClick={handleSaveTodoClick} type='button' disabled={!canSave}>Save todo</button>
       </form>
     </div>

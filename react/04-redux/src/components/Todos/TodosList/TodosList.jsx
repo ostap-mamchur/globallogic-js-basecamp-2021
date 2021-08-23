@@ -1,6 +1,7 @@
 import { useSelector } from 'react-redux';
 import { selectAllTodos } from '../../../redux/todosSlice';
 import TodoItem from './TodoItem/TodoItem';
+import styles from "./TodoList.module.css"
 
 function TodosList() {
   const todos = useSelector(selectAllTodos);
@@ -10,7 +11,7 @@ function TodosList() {
   ));
 
   return (
-    <ul>{renderedTodo}</ul>
+    <ul className={styles.list}>{renderedTodo}</ul>
   );
 }
 

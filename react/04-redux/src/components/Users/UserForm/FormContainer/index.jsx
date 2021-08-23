@@ -5,8 +5,26 @@ import { MODE } from '../../../../constants';
 import { AGE, ROLE, USERNAME } from '../../constants';
 import Buttons from './Buttons';
 import Select from '../../../../common/Formik/Select';
+import { useSelector } from 'react-redux';
+import LoadingSelect from "./circles.svg";
 
-function FormContainer({ initialValues, onSubmit, mode, roles }) {
+function FormContainer({ initialValues, onSubmit, mode }) {
+  const roles = useSelector(state => state.roles.roles);
+  const rolesStatus = useSelector(state => state.roles.status);
+
+  let rolesSelect;
+  if (rolesStatus === "loading") {
+    rolesSelect = <img src={LoadingSelect} alt='Loading..' />;
+  } else if (rolesStatus === "succeeded") {
+    rolesSelect = (
+      <Select
+        label='Role'
+        name={ROLE}
+        disabled={mode === MODE.VIEW}
+        options={roles.map(role => ({ label: role, value: role }))}
+      />
+    );
+  }
   return (
     <Formik initialValues={initialValues} onSubmit={onSubmit}>
       <Form>
@@ -23,12 +41,7 @@ function FormContainer({ initialValues, onSubmit, mode, roles }) {
             }
           }}
         />
-        <Select
-          label='Role'
-          name={ROLE}
-          disabled={mode === MODE.VIEW}
-          options={roles.map(role => ({ label: role, value: role }))}
-        />
+        {rolesSelect}
         <br />
         <Buttons mode={mode} />
       </Form>

@@ -63,7 +63,6 @@ function UserForm() {
       initialValues={initialValues}
       onSubmit={handleSubmit}
       mode={mode}
-      roles={roles}
     />
   );
 }
